@@ -59,10 +59,11 @@
 
 #section-1 {
     background-color: #2e2f42;
+
 }
 
 
-#h-1 {
+#head-1 {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -89,8 +90,7 @@
     background-color: #404bbf;
 }
 
-
-.head-3 {
+#head-3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -98,7 +98,7 @@
     color: #2e2f42;
 }
 
-.list-2-item {
+#list-2-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
