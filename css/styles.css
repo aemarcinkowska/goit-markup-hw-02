@@ -18,6 +18,10 @@
     color: #2e2f42;
 }
 
+.web-logo {
+    color: #4d5ae5;
+}
+
 .link-in-header {
     font-weight: 500;
     font-size: 16px;
@@ -53,11 +57,12 @@
     color: #404bbf; 
 }
 
-.section-1 {
+#section-1 {
     background-color: #2e2f42;
 }
 
-.head-1 {
+
+#h-1 {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -84,6 +89,7 @@
     background-color: #404bbf;
 }
 
+
 .head-3 {
     font-weight: 500;
     font-size: 20px;
@@ -99,7 +105,7 @@
     color: #434455;
 }
 
-.section-3 {
+#section-3 {
     background-color: #f4f4fd;
 }
 
