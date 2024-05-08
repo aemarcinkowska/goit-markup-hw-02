@@ -4,6 +4,11 @@
     background-color: white;
 }
 
+.header {
+    width: 1440px;
+    height: 72px;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -20,6 +25,10 @@
 
 .web-logo {
     color: #4d5ae5;
+}
+
+.header-list {
+    list-style: none;
 }
 
 .link-in-header {
@@ -42,6 +51,10 @@
     font-style: normal;
 }
 
+.address-class {
+    list-style: none;
+}
+
 .address-list {
     font-size: 16px;
     line-height: 1.5;
@@ -59,6 +72,7 @@
 
 .section-one-css {
     background-color: #2e2f42;
+    box-sizing: inherit;
 }
 
 
@@ -68,6 +82,8 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: white;
+    padding: 188px 472px 292px 472px;
+    
 }
 
 .button {
@@ -79,6 +95,8 @@
     letter-spacing: 0.04em;
     color: white;
     cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 
 .button:hover {
@@ -89,12 +107,25 @@
     background-color: #404bbf;
 }
 
+
+
 .head-section-two {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.section-two-list {
+    list-style: none;
+    width: 1128px;
+}
+
+.section-two-css {
+    width: 1128px;
+    height: 104px;
+
 }
 
 .list-second-item {
@@ -104,8 +135,20 @@
     color: #434455;
 }
 
+.section-one-css {
+    width: 1440px;
+    height: 600px;
+    margin-top: 72px;
+}
+
 .section-third-css {
     background-color: #f4f4fd;
+    width: 1440px;
+    height: 732px;
+}
+
+.section-third-list {
+    list-style: none;
 }
 
 .head-section-third {
@@ -145,6 +188,15 @@
     color: #2e2f42;
 }
 
+.section-fourth-list {
+    list-style: none;
+}
+
+.section-fourth-css {
+    width: 1128px;
+    height: 1000px;
+}
+
 .name-second {
     font-weight: 500;
     font-size: 20px;
@@ -169,6 +221,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    width: 1440px;
+    height: 312px;
 }
 
 .p-footer {
