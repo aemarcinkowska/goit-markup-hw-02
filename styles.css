@@ -4,9 +4,21 @@
     background-color: white;
 }
 
+
 .header {
     width: 1440px;
     height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div {
+    display: flex;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .logo {
@@ -17,6 +29,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
 }
 
 .studio-logo {
@@ -25,10 +39,17 @@
 
 .web-logo {
     color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
+
 
 .header-list {
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
 .link-in-header {
@@ -37,6 +58,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .link-in-header:hover {
@@ -53,6 +75,8 @@
 
 .address-class {
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
 .address-list {
@@ -72,7 +96,7 @@
 
 .section-one-css {
     background-color: #2e2f42;
-    box-sizing: inherit;
+    padding: 188px 0;
 }
 
 
@@ -82,9 +106,10 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: white;
-    padding: 188px 472px 292px 472px;
+    max-width: 496px;
     
 }
+
 
 .button {
     background-color: #4d5ae5;
@@ -97,6 +122,11 @@
     cursor: pointer;
     padding: 16px 32px;
     border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+
 }
 
 .button:hover {
@@ -115,17 +145,26 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+
 }
 
 .section-two-list {
     list-style: none;
     width: 1128px;
+    display: flex;
+    gap: 24px;
 }
 
 .section-two-css {
     width: 1128px;
     height: 104px;
+    padding: 120px 0;
 
+}
+
+.header-two {
+    visibility: hidden;
 }
 
 .list-second-item {
@@ -133,6 +172,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-one-css {
@@ -145,10 +185,14 @@
     background-color: #f4f4fd;
     width: 1440px;
     height: 732px;
+    padding: 120px 0;
+
 }
 
 .section-third-list {
     list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
 .head-section-third {
@@ -158,10 +202,13 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .listitem {
     background-color: white;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .name {
@@ -170,6 +217,13 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center; 
+    margin-bottom: 8px; 
+}
+
+.name-div {
+    padding: 32px 16px;
+
 }
 
 .description {
@@ -177,6 +231,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center; 
 }
 
 .head-fourth {
@@ -186,15 +241,33 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .section-fourth-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
 }
 
 .section-fourth-css {
     width: 1128px;
     height: 1000px;
+    padding-top: 120px; padding-bottom: 120px;
+}
+
+.listitem-fourth {
+    width: calc((100% - 48px) / 3);
+}
+
+.second-name-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+
 }
 
 .name-second {
@@ -210,6 +283,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .footer {
@@ -223,12 +297,14 @@
     color: #4d5ae5;
     width: 1440px;
     height: 312px;
+    padding: 100px 0;
 }
 
 .p-footer {
     color:#f4f4fd;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    max-width: 264px;
 }
 .studio-logo-footer {
     color: #f4f4fd;
